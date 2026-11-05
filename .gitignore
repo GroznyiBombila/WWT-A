@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.venv*/
+
+# Секреты: ключи API и сессия Telegram (это полный доступ к аккаунту)
+.env
+!.env.example
+*.session
+*.session-journal
+tg_qa/.session/
+tg_qa/sources.json
+
+# Выгрузки и записи: чужая переписка и голоса, в публичный репо не кладём
+qa/
+media/
+*.mp3
+*.mp4
+*.m4a
+*.wav
+*.ogg
+*.webm
+*.mkv
+*.mov

@@ -1,0 +1,9 @@
+# python -m venv .venv && .venv\Scripts\pip install -r requirements.txt
+telethon==1.45.0
+python-dotenv
+qrcode[pil]                # вход в Telegram по QR (tg_qa/login.py)
+faster-whisper==1.2.1
+av<16                      # av 16+ ломает decode_audio в faster-whisper 1.2.1
+# GPU (Windows/Linux, CUDA 12). Без них transcribe.py сам уйдёт на CPU.
+nvidia-cublas-cu12
+nvidia-cudnn-cu12==9.*

@@ -1,0 +1,5 @@
+[
+  {"name": "track", "chat": -1001234567890, "topic": 45, "title": "Хакатон · чат нашего трека"},
+  {"name": "qa-general", "chat": -1001234567890, "topic": 64, "title": "Хакатон · вопросы и ответы"},
+  {"name": "announcements", "chat": -1001234567890, "topic": 1, "title": "Хакатон · General / анонсы"}
+]
